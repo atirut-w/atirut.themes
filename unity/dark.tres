@@ -1,4 +1,31 @@
-[gd_resource type="Theme" load_steps=3 format=3 uid="uid://3u3duf2aqnly"]
+[gd_resource type="Theme" load_steps=8 format=3 uid="uid://3u3duf2aqnly"]
+
+[ext_resource type="StyleBox" uid="uid://cujalgj2r1g53" path="res://addons/atirut.themes/unity/focus_outline.tres" id="1_6c8ql"]
+[ext_resource type="StyleBox" uid="uid://br4tmbmh2qvsm" path="res://addons/atirut.themes/unity/text_field.tres" id="2_8rcoo"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ge6bv"]
+bg_color = Color(0.270588, 0.270588, 0.270588, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.203922, 0.203922, 0.203922, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xrpvx"]
+bg_color = Color(0.403922, 0.403922, 0.403922, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.141176, 0.141176, 0.141176, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x5324"]
 bg_color = Color(0.345098, 0.345098, 0.345098, 1)
@@ -6,7 +33,19 @@ border_width_left = 1
 border_width_top = 1
 border_width_right = 1
 border_width_bottom = 1
-border_color = Color(0.188235, 0.188235, 0.188235, 1)
+border_color = Color(0.141176, 0.141176, 0.141176, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2sxak"]
+bg_color = Color(0.207843, 0.207843, 0.207843, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.141176, 0.141176, 0.141176, 1)
 corner_radius_top_left = 4
 corner_radius_top_right = 4
 corner_radius_bottom_right = 4
@@ -16,5 +55,15 @@ corner_radius_bottom_left = 4
 bg_color = Color(0.219608, 0.219608, 0.219608, 1)
 
 [resource]
+Button/styles/disabled = SubResource("StyleBoxFlat_ge6bv")
+Button/styles/focus = ExtResource("1_6c8ql")
+Button/styles/hover = SubResource("StyleBoxFlat_xrpvx")
 Button/styles/normal = SubResource("StyleBoxFlat_x5324")
+Button/styles/pressed = SubResource("StyleBoxFlat_2sxak")
+LineEdit/styles/focus = ExtResource("1_6c8ql")
+LineEdit/styles/normal = ExtResource("2_8rcoo")
+LineEdit/styles/read_only = ExtResource("2_8rcoo")
 Panel/styles/panel = SubResource("StyleBoxFlat_3nm4h")
+TextEdit/styles/focus = ExtResource("1_6c8ql")
+TextEdit/styles/normal = ExtResource("2_8rcoo")
+TextEdit/styles/read_only = ExtResource("2_8rcoo")
