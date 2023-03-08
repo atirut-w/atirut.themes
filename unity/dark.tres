@@ -4,6 +4,10 @@
 [ext_resource type="StyleBox" uid="uid://br4tmbmh2qvsm" path="res://addons/atirut.themes/unity/text_field.tres" id="2_8rcoo"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ge6bv"]
+content_margin_left = 3.0
+content_margin_top = 3.0
+content_margin_right = 3.0
+content_margin_bottom = 3.0
 bg_color = Color(0.270588, 0.270588, 0.270588, 1)
 border_width_left = 1
 border_width_top = 1
@@ -16,6 +20,10 @@ corner_radius_bottom_right = 4
 corner_radius_bottom_left = 4
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xrpvx"]
+content_margin_left = 3.0
+content_margin_top = 3.0
+content_margin_right = 3.0
+content_margin_bottom = 3.0
 bg_color = Color(0.403922, 0.403922, 0.403922, 1)
 border_width_left = 1
 border_width_top = 1
@@ -28,6 +36,10 @@ corner_radius_bottom_right = 4
 corner_radius_bottom_left = 4
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x5324"]
+content_margin_left = 3.0
+content_margin_top = 3.0
+content_margin_right = 3.0
+content_margin_bottom = 3.0
 bg_color = Color(0.345098, 0.345098, 0.345098, 1)
 border_width_left = 1
 border_width_top = 1
@@ -40,6 +52,10 @@ corner_radius_bottom_right = 4
 corner_radius_bottom_left = 4
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2sxak"]
+content_margin_left = 3.0
+content_margin_top = 3.0
+content_margin_right = 3.0
+content_margin_bottom = 3.0
 bg_color = Color(0.207843, 0.207843, 0.207843, 1)
 border_width_left = 1
 border_width_top = 1
