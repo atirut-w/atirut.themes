@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=8 format=3 uid="uid://3u3duf2aqnly"]
+[gd_resource type="Theme" load_steps=12 format=3 uid="uid://3u3duf2aqnly"]
 
 [ext_resource type="StyleBox" uid="uid://cujalgj2r1g53" path="res://addons/atirut.themes/unity/focus_outline.tres" id="1_6c8ql"]
 [ext_resource type="StyleBox" uid="uid://br4tmbmh2qvsm" path="res://addons/atirut.themes/unity/text_field.tres" id="2_8rcoo"]
@@ -70,6 +70,40 @@ corner_radius_bottom_left = 4
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3nm4h"]
 bg_color = Color(0.219608, 0.219608, 0.219608, 1)
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ahd3r"]
+content_margin_left = 3.0
+content_margin_top = 3.0
+content_margin_right = 3.0
+content_margin_bottom = 3.0
+bg_color = Color(0.235294, 0.235294, 0.235294, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.137255, 0.137255, 0.137255, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2wylp"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.235294, 0.235294, 0.235294, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_color = Color(0.137255, 0.137255, 0.137255, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+expand_margin_bottom = 1.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6ssfm"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.156863, 0.156863, 0.156863, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b6niw"]
+bg_color = Color(0.156863, 0.156863, 0.156863, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+
 [resource]
 Button/styles/disabled = SubResource("StyleBoxFlat_ge6bv")
 Button/styles/focus = ExtResource("1_6c8ql")
@@ -80,6 +114,10 @@ LineEdit/styles/focus = ExtResource("1_6c8ql")
 LineEdit/styles/normal = ExtResource("2_8rcoo")
 LineEdit/styles/read_only = ExtResource("2_8rcoo")
 Panel/styles/panel = SubResource("StyleBoxFlat_3nm4h")
+TabContainer/styles/panel = SubResource("StyleBoxFlat_ahd3r")
+TabContainer/styles/tab_selected = SubResource("StyleBoxFlat_2wylp")
+TabContainer/styles/tab_unselected = SubResource("StyleBoxFlat_6ssfm")
+TabContainer/styles/tabbar_background = SubResource("StyleBoxFlat_b6niw")
 TextEdit/styles/focus = ExtResource("1_6c8ql")
 TextEdit/styles/normal = ExtResource("2_8rcoo")
 TextEdit/styles/read_only = ExtResource("2_8rcoo")
